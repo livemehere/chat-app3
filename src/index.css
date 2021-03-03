@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+button,
+input {
+  border: none;
+}
+li {
+  display: flex;
+  background-color: white;
+  width: 40%;
+  border-radius: 5px;
+  margin-top: 3px;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  background-color: rgb(139, 192, 223);
+  height: 93%;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#form {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+}
+
+.label {
+}
+
+#user_name {
+  width: 10%;
+  height: 100%;
+  border: 1px solid rgb(112, 112, 112);
+}
+
+.text {
+  flex: 8;
+  height: 100%;
+  border: 1px solid rgb(112, 112, 112);
+}
+
+.send {
+  flex: 1;
+  height: 100%;
+}
+
+.self {
+  background-color: rgb(255, 201, 53);
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.another {
+  background-color: rgb(255, 255, 255);
+}
